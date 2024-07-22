@@ -41,7 +41,7 @@ body{
     gap: 0.5rem;
 }
 
-#actions buttom{
+#actions button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,4 +52,22 @@ body{
     border-radius: 4px;
     border: none;
     background-color: #e0e7ff;
+    color: #262626;
+    cursor: pointer;
+    transition: background-color .2s ease-in ;
+}
+
+#actions button:hover{
+    background-color:#0f79ba;
+}
+
+#marks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: #ffffff;
+}
+
+#marks-list p:first-child{
+    margin-top: 1.5rem;
 }
