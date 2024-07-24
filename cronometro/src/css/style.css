@@ -11,13 +11,15 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background: linear-gradient( 100deg, #003c5f, #0f79ba);
+    background: linear-gradient( 180deg, #003c5f, #0f79ba);
 }
 
 #stopwatch {
     background-color: #262626;
     padding: 2rem;
     border-radius: 8px;
+    flex-direction: column;
+    display: flex;
 }
 
 #timer{
